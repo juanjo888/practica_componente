@@ -1,0 +1,19 @@
+{
+    "name": "juanjo/practica_componente",
+    "type": "project",
+    "authors": [
+        {
+            "name": "juanjo",
+            "email": "juanjovalles88@gmail.com"
+        }
+    ],
+    "require": { 
+        "fzaninotto/faker":"1.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juanjo\\": "src/api"
+        }
+    }
+    
+}
